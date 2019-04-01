@@ -3,4 +3,4 @@ COPY app hello-world
 RUN ls -ltr
 CMD node hello-world/app.js
 
-EXPOSE 3000
+EXPOSE 8080
